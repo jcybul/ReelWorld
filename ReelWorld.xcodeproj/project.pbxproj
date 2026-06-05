@@ -6,6 +6,60 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		401C1A6D2FD356DB00103CD6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A672FD356DB00103CD6 /* GameViewController.swift */; };
+		401C1A6E2FD356DB00103CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A642FD356DB00103CD6 /* AppDelegate.swift */; };
+		401C1A6F2FD356DB00103CD6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A662FD356DB00103CD6 /* GameScene.swift */; };
+		401C1A702FD356DB00103CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A652FD356DB00103CD6 /* Assets.xcassets */; };
+		401C1A712FD356DB00103CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A6B2FD356DB00103CD6 /* Main.storyboard */; };
+		401C1A722FD356DB00103CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A692FD356DB00103CD6 /* LaunchScreen.storyboard */; };
+		401C1A772FD3571E00103CD6 /* BeachScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A762FD3571800103CD6 /* BeachScene.swift */; };
+		401C1A792FD3572900103CD6 /* OceanScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A782FD3572500103CD6 /* OceanScene.swift */; };
+		401C1A7B2FD3573200103CD6 /* LakeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7A2FD3572E00103CD6 /* LakeScene.swift */; };
+		401C1A7D2FD3573D00103CD6 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7C2FD3573B00103CD6 /* Fish.swift */; };
+		401C1A7F2FD3574200103CD6 /* Lure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7E2FD3574100103CD6 /* Lure.swift */; };
+		401C1A812FD3574C00103CD6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A802FD3574900103CD6 /* Player.swift */; };
+		401C1A832FD3575600103CD6 /* FishAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A822FD3575300103CD6 /* FishAI.swift */; };
+		401C1A852FD3575F00103CD6 /* CastSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A842FD3575C00103CD6 /* CastSystem.swift */; };
+		401C1A862FD35EAD00103CD6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A662FD356DB00103CD6 /* GameScene.swift */; };
+		401C1A872FD35EAD00103CD6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A662FD356DB00103CD6 /* GameScene.swift */; };
+		401C1A882FD35F5A00103CD6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A672FD356DB00103CD6 /* GameViewController.swift */; };
+		401C1A892FD35F5A00103CD6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A672FD356DB00103CD6 /* GameViewController.swift */; };
+		401C1A8A2FD35F6000103CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A642FD356DB00103CD6 /* AppDelegate.swift */; };
+		401C1A8B2FD35F6000103CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A642FD356DB00103CD6 /* AppDelegate.swift */; };
+		401C1A8C2FD35F6700103CD6 /* BeachScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A762FD3571800103CD6 /* BeachScene.swift */; };
+		401C1A8D2FD35F6700103CD6 /* BeachScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A762FD3571800103CD6 /* BeachScene.swift */; };
+		401C1A8E2FD35F6B00103CD6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A802FD3574900103CD6 /* Player.swift */; };
+		401C1A8F2FD35F6B00103CD6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A802FD3574900103CD6 /* Player.swift */; };
+		401C1A902FD35F7000103CD6 /* Lure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7E2FD3574100103CD6 /* Lure.swift */; };
+		401C1A912FD35F7000103CD6 /* Lure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7E2FD3574100103CD6 /* Lure.swift */; };
+		401C1A922FD35F7500103CD6 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7C2FD3573B00103CD6 /* Fish.swift */; };
+		401C1A932FD35F7500103CD6 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7C2FD3573B00103CD6 /* Fish.swift */; };
+		401C1A942FD35F7A00103CD6 /* LakeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7A2FD3572E00103CD6 /* LakeScene.swift */; };
+		401C1A952FD35F7A00103CD6 /* LakeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A7A2FD3572E00103CD6 /* LakeScene.swift */; };
+		401C1A962FD35F8200103CD6 /* OceanScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A782FD3572500103CD6 /* OceanScene.swift */; };
+		401C1A972FD35F8200103CD6 /* OceanScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A782FD3572500103CD6 /* OceanScene.swift */; };
+		401C1A982FD35F8C00103CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A692FD356DB00103CD6 /* LaunchScreen.storyboard */; };
+		401C1A992FD35F8C00103CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A692FD356DB00103CD6 /* LaunchScreen.storyboard */; };
+		401C1A9A2FD35F9200103CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A6B2FD356DB00103CD6 /* Main.storyboard */; };
+		401C1A9B2FD35F9200103CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A6B2FD356DB00103CD6 /* Main.storyboard */; };
+		401C1A9C2FD35F9D00103CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A652FD356DB00103CD6 /* Assets.xcassets */; };
+		401C1A9D2FD35F9D00103CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401C1A652FD356DB00103CD6 /* Assets.xcassets */; };
+		401C1A9E2FD35FCA00103CD6 /* FishAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A822FD3575300103CD6 /* FishAI.swift */; };
+		401C1A9F2FD35FCA00103CD6 /* FishAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A822FD3575300103CD6 /* FishAI.swift */; };
+		401C1AA02FD35FCF00103CD6 /* CastSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A842FD3575C00103CD6 /* CastSystem.swift */; };
+		401C1AA12FD35FCF00103CD6 /* CastSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1A842FD3575C00103CD6 /* CastSystem.swift */; };
+		401C1AB12FD3600000103CD6 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AB02FD3600000103CD6 /* MenuScene.swift */; };
+		401C1AB22FD3600000103CD6 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AB02FD3600000103CD6 /* MenuScene.swift */; };
+		401C1AB32FD3600000103CD6 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AB02FD3600000103CD6 /* MenuScene.swift */; };
+		401C1AC12FD3600100103CD6 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC02FD3600100103CD6 /* Equipment.swift */; };
+		401C1AC22FD3600100103CD6 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC02FD3600100103CD6 /* Equipment.swift */; };
+		401C1AC32FD3600100103CD6 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC02FD3600100103CD6 /* Equipment.swift */; };
+		401C1AC52FD3600100103CD6 /* GameMenuOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC42FD3600100103CD6 /* GameMenuOverlay.swift */; };
+		401C1AC62FD3600100103CD6 /* GameMenuOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC42FD3600100103CD6 /* GameMenuOverlay.swift */; };
+		401C1AC72FD3600100103CD6 /* GameMenuOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C1AC42FD3600100103CD6 /* GameMenuOverlay.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		401C1A472FD353EA00103CD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +81,26 @@
 		401C1A2D2FD353E800103CD6 /* ReelWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401C1A462FD353EA00103CD6 /* ReelWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401C1A502FD353EA00103CD6 /* ReelWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401C1A642FD356DB00103CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		401C1A652FD356DB00103CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401C1A662FD356DB00103CD6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		401C1A672FD356DB00103CD6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		401C1A682FD356DB00103CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		401C1A6A2FD356DB00103CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		401C1A762FD3571800103CD6 /* BeachScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachScene.swift; sourceTree = "<group>"; };
+		401C1AB02FD3600000103CD6 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		401C1A782FD3572500103CD6 /* OceanScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanScene.swift; sourceTree = "<group>"; };
+		401C1A7A2FD3572E00103CD6 /* LakeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeScene.swift; sourceTree = "<group>"; };
+		401C1A7C2FD3573B00103CD6 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		401C1A7E2FD3574100103CD6 /* Lure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lure.swift; sourceTree = "<group>"; };
+		401C1A802FD3574900103CD6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		401C1A822FD3575300103CD6 /* FishAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishAI.swift; sourceTree = "<group>"; };
+		401C1A842FD3575C00103CD6 /* CastSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastSystem.swift; sourceTree = "<group>"; };
+		401C1AC02FD3600100103CD6 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		401C1AC42FD3600100103CD6 /* GameMenuOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		401C1A2F2FD353E800103CD6 /* ReelWorld */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReelWorld;
-			sourceTree = "<group>";
-		};
 		401C1A492FD353EA00103CD6 /* ReelWorldTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ReelWorldTests;
@@ -75,7 +141,7 @@
 		401C1A242FD353E800103CD6 = {
 			isa = PBXGroup;
 			children = (
-				401C1A2F2FD353E800103CD6 /* ReelWorld */,
+				401C1A6C2FD356DB00103CD6 /* ReelWorld */,
 				401C1A492FD353EA00103CD6 /* ReelWorldTests */,
 				401C1A532FD353EA00103CD6 /* ReelWorldUITests */,
 				401C1A2E2FD353E800103CD6 /* Products */,
@@ -92,6 +158,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		401C1A6C2FD356DB00103CD6 /* ReelWorld */ = {
+			isa = PBXGroup;
+			children = (
+				401C1A742FD356F400103CD6 /* Models */,
+				401C1A732FD356E300103CD6 /* Scenes */,
+				401C1A642FD356DB00103CD6 /* AppDelegate.swift */,
+				401C1A652FD356DB00103CD6 /* Assets.xcassets */,
+				401C1A662FD356DB00103CD6 /* GameScene.swift */,
+				401C1A672FD356DB00103CD6 /* GameViewController.swift */,
+				401C1A692FD356DB00103CD6 /* LaunchScreen.storyboard */,
+				401C1A6B2FD356DB00103CD6 /* Main.storyboard */,
+				401C1A752FD356FD00103CD6 /* Systems */,
+			);
+			path = ReelWorld;
+			sourceTree = "<group>";
+		};
+		401C1A732FD356E300103CD6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				401C1AB02FD3600000103CD6 /* MenuScene.swift */,
+				401C1AC42FD3600100103CD6 /* GameMenuOverlay.swift */,
+				401C1A7A2FD3572E00103CD6 /* LakeScene.swift */,
+				401C1A782FD3572500103CD6 /* OceanScene.swift */,
+				401C1A762FD3571800103CD6 /* BeachScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		401C1A742FD356F400103CD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				401C1A802FD3574900103CD6 /* Player.swift */,
+				401C1A7E2FD3574100103CD6 /* Lure.swift */,
+				401C1A7C2FD3573B00103CD6 /* Fish.swift */,
+				401C1AC02FD3600100103CD6 /* Equipment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		401C1A752FD356FD00103CD6 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				401C1A842FD3575C00103CD6 /* CastSystem.swift */,
+				401C1A822FD3575300103CD6 /* FishAI.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +220,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				401C1A2F2FD353E800103CD6 /* ReelWorld */,
 			);
 			name = ReelWorld;
 			packageProductDependencies = (
@@ -212,6 +323,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A982FD35F8C00103CD6 /* LaunchScreen.storyboard in Resources */,
+				401C1A9C2FD35F9D00103CD6 /* Assets.xcassets in Resources */,
+				401C1A9A2FD35F9200103CD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A702FD356DB00103CD6 /* Assets.xcassets in Resources */,
+				401C1A712FD356DB00103CD6 /* Main.storyboard in Resources */,
+				401C1A722FD356DB00103CD6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +343,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A992FD35F8C00103CD6 /* LaunchScreen.storyboard in Resources */,
+				401C1A9D2FD35F9D00103CD6 /* Assets.xcassets in Resources */,
+				401C1A9B2FD35F9200103CD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +356,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A962FD35F8200103CD6 /* OceanScene.swift in Sources */,
+				401C1A922FD35F7500103CD6 /* Fish.swift in Sources */,
+				401C1A8C2FD35F6700103CD6 /* BeachScene.swift in Sources */,
+				401C1A902FD35F7000103CD6 /* Lure.swift in Sources */,
+				401C1A8A2FD35F6000103CD6 /* AppDelegate.swift in Sources */,
+				401C1A882FD35F5A00103CD6 /* GameViewController.swift in Sources */,
+				401C1A942FD35F7A00103CD6 /* LakeScene.swift in Sources */,
+				401C1AA02FD35FCF00103CD6 /* CastSystem.swift in Sources */,
+				401C1A9E2FD35FCA00103CD6 /* FishAI.swift in Sources */,
+				401C1A8E2FD35F6B00103CD6 /* Player.swift in Sources */,
+				401C1A862FD35EAD00103CD6 /* GameScene.swift in Sources */,
+				401C1AB12FD3600000103CD6 /* MenuScene.swift in Sources */,
+				401C1AC12FD3600100103CD6 /* Equipment.swift in Sources */,
+				401C1AC52FD3600100103CD6 /* GameMenuOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +377,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A6D2FD356DB00103CD6 /* GameViewController.swift in Sources */,
+				401C1A6E2FD356DB00103CD6 /* AppDelegate.swift in Sources */,
+				401C1A832FD3575600103CD6 /* FishAI.swift in Sources */,
+				401C1A7B2FD3573200103CD6 /* LakeScene.swift in Sources */,
+				401C1A6F2FD356DB00103CD6 /* GameScene.swift in Sources */,
+				401C1A7F2FD3574200103CD6 /* Lure.swift in Sources */,
+				401C1A792FD3572900103CD6 /* OceanScene.swift in Sources */,
+				401C1A772FD3571E00103CD6 /* BeachScene.swift in Sources */,
+				401C1A812FD3574C00103CD6 /* Player.swift in Sources */,
+				401C1A7D2FD3573D00103CD6 /* Fish.swift in Sources */,
+				401C1A852FD3575F00103CD6 /* CastSystem.swift in Sources */,
+				401C1AB22FD3600000103CD6 /* MenuScene.swift in Sources */,
+				401C1AC22FD3600100103CD6 /* Equipment.swift in Sources */,
+				401C1AC62FD3600100103CD6 /* GameMenuOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +398,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C1A892FD35F5A00103CD6 /* GameViewController.swift in Sources */,
+				401C1A872FD35EAD00103CD6 /* GameScene.swift in Sources */,
+				401C1A8D2FD35F6700103CD6 /* BeachScene.swift in Sources */,
+				401C1A8F2FD35F6B00103CD6 /* Player.swift in Sources */,
+				401C1A912FD35F7000103CD6 /* Lure.swift in Sources */,
+				401C1A8B2FD35F6000103CD6 /* AppDelegate.swift in Sources */,
+				401C1AA12FD35FCF00103CD6 /* CastSystem.swift in Sources */,
+				401C1A972FD35F8200103CD6 /* OceanScene.swift in Sources */,
+				401C1A932FD35F7500103CD6 /* Fish.swift in Sources */,
+				401C1A952FD35F7A00103CD6 /* LakeScene.swift in Sources */,
+				401C1A9F2FD35FCA00103CD6 /* FishAI.swift in Sources */,
+				401C1AB32FD3600000103CD6 /* MenuScene.swift in Sources */,
+				401C1AC32FD3600100103CD6 /* Equipment.swift in Sources */,
+				401C1AC72FD3600100103CD6 /* GameMenuOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +429,25 @@
 			targetProxy = 401C1A512FD353EA00103CD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		401C1A692FD356DB00103CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401C1A682FD356DB00103CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		401C1A6B2FD356DB00103CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401C1A6A2FD356DB00103CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		401C1A582FD353EA00103CD6 /* Debug */ = {
@@ -395,7 +576,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2Z549A375;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -407,7 +590,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jocyzegames.ReelWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcybul.ReelWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +605,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2Z549A375;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -434,7 +619,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jocyzegames.ReelWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcybul.ReelWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,6 +668,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2Z549A375;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jocyzegames.ReelWorldUITests;
@@ -499,6 +685,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2Z549A375;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jocyzegames.ReelWorldUITests;
